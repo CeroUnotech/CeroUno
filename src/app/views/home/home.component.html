@@ -1,0 +1,11 @@
+<main (mousewheel)="next($event)" class="h-full w-full overflow-hidden select-none flex flex-col items-center">
+    <section class="absolute h-full w-full">
+        <img class="relative top-0 -z-20 w-full h-full object-cover md:object-fit lg:object-fit" src="assets/binary.gif" alt="bg">
+        <div class="absolute top-0 -z-10 w-full h-full bg-black bg-opacity-75"></div>
+    </section>
+    <section class="absolute flex flex-col items-center justify-center w-full h-full">
+        <h1 class="text-white font-montserrat text-5xl font-medium">CeroUno</h1>
+        <h2 class="text-green-200 font-jetbrains text-3xl font-medium"><01/></h2>
+    </section>
+    <app-navbar class="w-48"></app-navbar>
+</main>
